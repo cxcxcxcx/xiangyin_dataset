@@ -4,7 +4,7 @@
 
 乡音方言数据集语音数据来源于[乡音 APP（XiangYin.Mobi）](https://xiangyin.mobi)用户上传的语音，在现阶段经整理以[CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)协议发布（不可用于商用，衍生品也须使用同协议，转载请保留全部信息和 GitHub 页面链接）。如有商用需求，请联系 webmaster@xiangyin.mobi 。
 
-v1 数据包含了 2015-2024年9月用户上传的读句子的语音（未包含看图说话），经过 VAD 处理以减少静音时间，共计约81个小时，7719个用户。包含了投票数，未包含用户相互验证数据，以 ogg 16kHz 格式发布。
+v1 数据包含了 2015-2024年9月用户上传的读句子的语音（未包含看图说话），经过 VAD 处理以减少静音时间，共计约81个小时，7719个用户。包含了投票数，未包含用户相互验证数据，以 ogg 格式发布。采样率取决于用户设备，通常为 16kHz 或 44.1kHz。
 
 目前请邮件联系获取数据，并简要说明用途。如有问题或建议，请提 Issue 或发邮件讨论。
 
@@ -17,6 +17,13 @@ v1 数据包含了 2015-2024年9月用户上传的读句子的语音（未包含
   howpublished = {\url{https://github.com/cxcxcxcx/xiangyin_dataset}},
   year         = 2024
 }
+```
+
+数据验证：
+
+```
+$ sha256sum xiangyin_dataset_v1_20240928.tar
+749ff4f8d3f2f6d2b34031c213a457f1d3429530ea7d0659d7c6e7aa7af4a12b  xiangyin_dataset_v1_20240928.tar
 ```
 
 ## 数据格式
