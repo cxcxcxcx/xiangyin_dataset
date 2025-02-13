@@ -6,7 +6,7 @@ The voice data of Xiangyin Chinese Dialect Dataset comes from the voice uploaded
 
 The v1 data contains the voice of reading sentences uploaded by users from 2015 to September 2024 (with some filtering), which has been processed by VAD to reduce silence time, totaling about 81 hours and 7719 speakers. It includes the number of votes, but does not include user mutual verification data, and is released in ogg format. The sampling rate depends on the user device, usually 16kHz or 44.1kHz.
 
-Please contact us by email to obtain data and briefly explain the purpose. If you have any questions or suggestions, please raise an issue or send an email for discussion.
+Please use this [form link](https://www.wjx.cn/vm/tcTHIF5.aspx) for data access request。. If you have any questions or suggestions, please raise an issue or send an email for discussion.
 
 Reference link:
 
